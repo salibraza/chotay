@@ -1,0 +1,134 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 11.0.11)
+[debug] Load.defaultLoad until apply took 1379.6002ms
+[debug]                 Load.loadUnit: plugins took 481.8304ms
+[debug]                 Load.loadUnit: defsScala took 0.8495ms
+[debug] [Loading] Scanning directory C:\Users\hp\Desktop\random\chotay\project\project
+[debug]                   Load.loadUnit: mkEval took 25.0066ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 47.8584 ms
+[info] loading settings for project chotay-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(chotay-build-build) took 159.7807ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id chotay-build-build, base: C:\Users\hp\Desktop\random\chotay\project\project, plugins: List(<none>))) took 265.9665ms
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay\project\project, returning: (chotay-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1054.6202ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 22.6092ms
+[debug]               Load.loadUnit(file:/C:/Users/hp/Desktop/random/chotay/project/project/, ...) took 1581.1333ms
+[debug]             Load.apply: load took 1929.0183ms
+[debug]             Load.apply: resolveProjects took 16.7265ms
+[debug]             Load.apply: finalTransforms took 441.132ms
+[debug]             Load.apply: config.delegates took 43.8779ms
+[debug]             Load.apply: Def.make(settings)... took 2032.4445ms
+[debug]             Load.apply: structureIndex took 566.3007ms
+[debug]             Load.apply: mkStreams took 12.0688ms
+[info] loading project definition from C:\Users\hp\Desktop\random\chotay\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 8605.5151ms
+[debug]           Load.loadUnit: defsScala took 0.0074ms
+[debug] [Loading] Scanning directory C:\Users\hp\Desktop\random\chotay\project
+[debug]             Load.loadUnit: mkEval took 0.621ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 14.0107 ms
+[info] loading settings for project chotay-build from metals.sbt ...
+[debug]               Load.resolveProject(chotay-build) took 319.815ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id chotay-build, base: C:\Users\hp\Desktop\random\chotay\project, plugins: List(<none>))) took 335.0896ms
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay\project, returning: (chotay-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 371.9069ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.589ms
+[debug]         Load.loadUnit(file:/C:/Users/hp/Desktop/random/chotay/project/, ...) took 8991.493ms
+[debug]       Load.apply: load took 8999.8779ms
+[debug]       Load.apply: resolveProjects took 0.2744ms
+[debug]       Load.apply: finalTransforms took 79.2557ms
+[debug]       Load.apply: config.delegates took 0.6647ms
+[debug]       Load.apply: Def.make(settings)... took 375.5224ms
+[debug]       Load.apply: structureIndex took 80.8102ms
+[debug]       Load.apply: mkStreams took 0.0038ms
+[info] loading project definition from C:\Users\hp\Desktop\random\chotay\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1a2773a8, check cycles: false, forcegc: true
+[success] Generated .bloop\chotay-build.json
+[success] Total time: 8 s, completed Jul 4, 2021, 8:59:21 PM
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@1a0f349, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 18267.8886ms
+[debug]     Load.loadUnit: defsScala took 0.0054ms
+[debug] [Loading] Scanning directory C:\Users\hp\Desktop\random\chotay
+[debug]       Load.loadUnit: mkEval took 0.5022ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.3179 ms
+[info] loading settings for project chotay from build.sbt ...
+[debug]         Load.resolveProject(chotay) took 70.0842ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id chotay, base: C:\Users\hp\Desktop\random\chotay, plugins: List(<none>))) took 77.2868ms
+[debug] [Loading] Done in C:\Users\hp\Desktop\random\chotay, returning: (chotay)
+[debug]     Load.loadUnit: loadedProjectsRaw took 6170.6155ms
+[debug]     Load.loadUnit: cleanEvalClasses took 11.1206ms
+[debug]   Load.loadUnit(file:/C:/Users/hp/Desktop/random/chotay/, ...) took 24452.5407ms
+[debug] Load.apply: load took 24510.2769ms
+[debug] Load.apply: resolveProjects took 0.1822ms
+[debug] Load.apply: finalTransforms took 80.3724ms
+[debug] Load.apply: config.delegates took 0.5913ms
+[debug] Load.apply: Def.make(settings)... took 222.1702ms
+[debug] Load.apply: structureIndex took 80.9073ms
+[debug] Load.apply: mkStreams took 0.0041ms
+[info] set current project to hello-world (in build file:/C:/Users/hp/Desktop/random/chotay/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(bloopInstall, None, None)
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@aade5a2, check cycles: false, forcegc: true

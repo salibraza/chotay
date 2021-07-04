@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\hp\Desktop\random\chotay\target\scala-2.13\hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hp\Desktop\random\chotay\target\scala-2.13\classes\tests[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests\ScalaJdbcConnectSelect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hp\Desktop\random\chotay\target\scala-2.13\classes\tests\ScalaJdbcConnectSelect$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests\ScalaJdbcConnectSelect$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hp\Desktop\random\chotay\target\scala-2.13\classes\tests\ScalaJdbcConnectSelect$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	tests\ScalaJdbcConnectSelect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\hp\Desktop\random\chotay\target\scala-2.13\classes\tests\ScalaJdbcConnectSelect.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

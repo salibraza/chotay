@@ -1,0 +1,64 @@
+[0m2021.07.04 09:38:35 INFO  Started: Metals version 0.10.4 in workspace 'C:\Users\hp\Desktop\random' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.04 09:38:41 INFO  time: initialize in 6.16s[0m
+[0m2021.07.04 09:38:41 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.04 09:38:41 WARN  no build tool detected in workspace 'C:\Users\hp\Desktop\random'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Jul 04, 2021 9:40:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: coursierapi.error.DownloadingArtifactsError: https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar) while downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar) while downloading https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar
+
+java.util.concurrent.CompletionException: coursierapi.error.DownloadingArtifactsError: https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar) while downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar) while downloading https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar
+
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.failure(Promise.scala:104)
+	at scala.concurrent.Promise.failure$(Promise.scala:104)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:45)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: coursierapi.error.DownloadingArtifactsError: https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\.commons-codec-1.11.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.11\commons-codec-1.11.jar) while downloading https://repo1.maven.org/maven2/commons-codec/commons-codec/1.11/commons-codec-1.11.jar
+https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar: download error: Caught java.nio.file.AccessDeniedException: C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar (C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\.sshd-common-2.2.0.jar.part -> C:\Users\hp\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\sshd\sshd-common\2.2.0\sshd-common-2.2.0.jar) while downloading https://repo1.maven.org/maven2/org/apache/sshd/sshd-common/2.2.0/sshd-common-2.2.0.jar
+
+	at coursierapi.error.DownloadingArtifactsError.of(DownloadingArtifactsError.java:23)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:348)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:244)
+	at coursierapi.Fetch.fetch(Fetch.java:239)
+	at scala.meta.internal.builds.ShellRunner.runJava(ShellRunner.scala:47)
+	at scala.meta.internal.builds.NewProjectProvider.createNewProject(NewProjectProvider.scala:114)
+	at scala.meta.internal.builds.NewProjectProvider.$anonfun$createNewProjectFromTemplate$5(NewProjectProvider.scala:90)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.07.04 09:40:12 INFO  [0m
+[0m2021.07.04 09:40:12 INFO  Template applied in C:\Users\hp\Desktop\random\.\chotay[0m
+[0m2021.07.04 09:40:12 INFO  [0m
+[0m2021.07.04 09:40:12 INFO  giter8.Giter8 exit: 0[0m
+[0m2021.07.04 09:40:12 INFO  time: ran 'giter8.Giter8' in 9.59s[0m
+[0m2021.07.04 09:40:25 INFO  shutting down Metals[0m
