@@ -12,6 +12,8 @@ MySQL
 ### Execution Guidelines
 It is a console based application. 
 
+Run the db.sql file in MySQL workbench to form a temporary database
+
 In main.scala file, edit the database connection credentials according to the 
 MySQL database you want to connect.
 

@@ -51,7 +51,7 @@ object ScalaJdbcConnectSelect extends App {
           var rs = statement.executeQuery("Select max(id) id from cusotmers;")
           var id = rs.getInt("id")
           id+=1;
-          var query = "insert ignore into cutomers (id,name,location,age) values ("+id.toString()+",\""+n+"\",\""+loc+"\","+age+");"
+          var query = "insert ignore into cutomers (id,name,location,age) values (\""+id.toString()+",\""+n+"\",\""+loc+"\","+age+");"
           var r = statement.executeUpdate(query);
         }
 
